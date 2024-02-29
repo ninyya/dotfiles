@@ -4,6 +4,9 @@ end
 
 fish_add_path "/home/nin/.local/bin"
 
+set -x MODULAR_HOME "/home/nin/.modular"
+fish_add_path "/home/nin/.modular/pkg/packages.modular.com_mojo/bin"
+
 
 # Start or re-use a gpg-agent.
 gpgconf --launch gpg-agent
